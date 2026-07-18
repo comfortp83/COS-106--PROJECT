@@ -1,1 +1,38 @@
 style.css
+.planner-box {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 20px auto; }
+
+#taskInput {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; }
+
+button {
+    padding: 10px 15px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; }
+
+#taskList li {
+    background: white;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between; }
+
+#taskList li.completed {
+    text-decoration: line-through;
+    color: gray; }
+
+.delete-btn {
+    background: red;
+    padding: 5px 10px; }
